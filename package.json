@@ -1,0 +1,24 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivkumarsingh2501/Nodejs.git"
+  },
+  "keywords": [],
+  "author": "Deve;p[er Shiv",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/shivkumarsingh2501/Nodejs/issues"
+  },
+  "homepage": "https://github.com/shivkumarsingh2501/Nodejs#readme",
+  "dependencies": {
+    "packagename": "^2.0.1"
+  }
+}
