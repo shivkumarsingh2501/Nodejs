@@ -18,7 +18,7 @@ app.use(express.static(__dirname+'/public'))
 
 
 //html file path
-app.set('view','./src/views')
+app.set('views','./src/views')
 
 // view engine
 app.set('view engine','ejs')
@@ -30,7 +30,7 @@ let productRouter = require('./src/controller/ProductRoute')
 
 // default route
 app.get('/', (req, res) => {
-    res.send("Hi from express")
+    res.render('index')
 })
 
 
