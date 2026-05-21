@@ -1,0 +1,13 @@
+{
+  "name": "staticapit",
+  "version": "1.0.0",
+  "description": "this about static api",
+  "license": "ISC",
+  "author": "shiv",
+  "type": "commonjs",
+  "main": "fs.js",
+  "scripts": {
+    "start": "node staticapi.js",
+    "dev" : "nodemon http.js"
+  }
+}
