@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "product_name": "Girls top",
+    "category": "Fashion",
+    "category_id": 1,
+    "Price": 2000,
+    "Size": "Small",
+    "Image": "https://i.ibb.co/fHj5Tpc/download.jpg",
+    "Color": "Maroon",
+    "Brand": "Gucci"
+  },
+  {
+    "id": 2,
+    "product_name": "Girls top",
+    "category": "Fashion",
+    "category_id": 1,
+    "Price": 1500,
+    "Size": "Medium",
+    "Image": "https://i.ibb.co/tsXyK5Y/images.jpg",
+    "Color": "Blue",
+    "Brand": "Westside"
+  },
+  {
+    "id": 3,
+    "product_name": "Girls top",
+    "category": "Fashion",
+    "category_id": 1,
+    "Price": 2000,
+    "Size": "Large",
+    "Image": "https://i.ibb.co/example/image3.jpg",
+    "Color": "Black",
+    "Brand": "Zara"
+  }
+])
