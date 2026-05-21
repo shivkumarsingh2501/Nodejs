@@ -12,7 +12,16 @@ let fs = require('fs')
 //middleware
 app.use(morgan('common',{stream:fs.createWriteStream('./app.log')}))
 
+// static
 
+app.use(express.static(__dirname+'/public'))
+
+
+//html file path
+app.set('view','./src/views')
+
+// view engine
+app.set('view engine','ejs')
 // import routers
 let categoryRouter = require('./src/controller/CategoryRouter')
 
